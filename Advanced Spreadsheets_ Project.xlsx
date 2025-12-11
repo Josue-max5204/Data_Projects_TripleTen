@@ -1,7 +1,13 @@
 Project Analysis: Manhattan Vacation Rental Market
+In this project, I analyzed Airbnb data to help a client determine which Manhattan neighborhoods and property types offer the strongest investment potential for 
+vacation rentals. Using pivot tables, I examined listing popularity through review frequency (a proxy for how often a property is rented) and identified the top 10 
+neighborhoods with the highest rental activity over the past 12 months.
 
-In this project, I analyzed Airbnb data to help a client determine which Manhattan neighborhoods and property types offer the strongest investment potential for vacation rentals. Using pivot tables, I examined listing popularity through review frequency (a proxy for how often a property is rented) and identified the top 10 neighborhoods with the highest rental activity over the past 12 months.
+The analysis showed a consistent preference for 1-bedroom rentals across all top neighborhoods except Midtown, where studio apartments were the most frequently 
+booked. After isolating these high-demand property types, I created a top_listing indicator to flag the most attractive investment candidates.
 
-The analysis showed a consistent preference for 1-bedroom rentals across all top neighborhoods except Midtown, where studio apartments were the most frequently booked. After isolating these high-demand property types, I created a top_listing indicator to flag the most attractive investment candidates.
+To estimate revenue, I joined listing data with daily calendar information and calculated revenue earned per night based on adjusted prices and availability. 
+Summing 30 days of earnings and annualizing the figure provided a clear comparison of which top listings generated the most income. 
+This final revenue-ranked pivot table highlights the best-performing neighborhoods and property sizes, giving the client a data-backed foundation for future 
+investment decisions.
 
-To estimate revenue, I joined listing data with daily calendar information and calculated revenue earned per night based on adjusted prices and availability. Summing 30 days of earnings and annualizing the figure provided a clear comparison of which top listings generated the most income. This final revenue-ranked pivot table highlights the best-performing neighborhoods and property sizes, giving the client a data-backed foundation for future investment decisions.
